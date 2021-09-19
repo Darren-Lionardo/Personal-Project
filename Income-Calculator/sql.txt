@@ -1,0 +1,21 @@
+CREATE DATABASE income;
+USE income
+
+CREATE TABLE main(
+	date DATE,
+	info VARCHAR(500),
+	buy INT,
+	sell INT
+);
+
+CREATE TABLE spending(
+	no INT,
+	date DATE,
+	name VARCHAR(100),
+	amount INT
+);
+
+CREATE TABLE profit(
+	date DATE,
+	profit INT
+);

@@ -1,0 +1,261 @@
+*{
+    font-family: sans-serif;
+}
+
+.navbar{
+    width: 100%;
+}
+
+.footbar{
+    margin-top: 50px;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
+
+.flex-evenly{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.flex-center{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card{
+    box-shadow: 0 8px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+}
+
+.card:hover{
+    box-shadow: 0 8px 24px 0 rgba(0,0,0,0.2);
+}
+
+.option{
+    margin-top: 20px;
+    width:100%;
+}
+
+.btn{
+    margin: 10px;
+    width: 150px;
+    height: 50px;
+    font-weight: bold;
+    border-radius: 10%;
+}
+
+.btn-plus{
+    margin-top: 20px;
+    width: 25px;
+    height: 25px;
+    font-weight: bold;
+    border-radius: 100%;
+}
+
+
+
+.month{
+    width: 700px;
+    height: 50px;
+    transition: 0.6s;
+}
+
+.month-inner{
+    width: 100%;
+    height: 100%;
+    font-weight: bold;
+    transform-style: preserve-3d;
+    transition: 0.6s;
+    position: relative;
+    text-align: center;
+}
+
+.month-front, .month-back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.month-front{
+    background-color: transparent;
+    color: black;
+}
+
+.month-back{
+    background-color: transparent;
+    color: black;
+    transform: rotateY(180deg);
+}
+
+.month:hover .month-inner{
+    transform: rotateY(180deg);
+    width: 700px;
+    height: 800px;
+}
+
+.month:hover{
+    width: 700px;
+    height: 800px;
+}
+
+/**/
+
+.spend{
+    width: 350px;
+    height: 50px;
+    transition: 0.6s;
+}
+
+.spend-inner{
+    width: 100%;
+    height: 100%;
+    font-weight: bold;
+    transform-style: preserve-3d;
+    transition: 0.6s;
+    position: relative;
+    text-align: center;
+}
+
+.spend-front, .spend-back{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+}
+
+.spend-front{
+    background-color: transparent;
+    color: black;
+}
+
+.spend-back{
+    background-color: transparent;
+    color: black;
+    transform: rotateY(180deg);
+}
+
+.spend:hover .spend-inner{
+    transform: rotateY(180deg);
+    width: 350px;
+    height: 600px;
+}
+
+.spend:hover{
+    width: 350px;
+    height: 600px;
+}
+
+/**/
+
+.btn2{
+    width: 150px;
+    height: 30px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.grey{
+    background-color: rgb(194, 194, 194);
+    transition: 0.3s;
+}
+
+.green{
+    background-color: rgb(64, 233, 64);
+    transition: 0.3s;
+}
+
+.green2{
+    background-color: rgb(64, 233, 64);
+}
+
+.yellow{
+    background-color: rgb(210, 212, 56);
+    transition: 0.3s;
+}
+
+.red{
+    background-color: rgb(255, 80, 80);
+    transition: 0.3s;
+}
+
+.red:hover{
+    background-color: rgb(136, 19, 19);
+}
+
+.grey:hover{
+    background-color: rgb(138, 138, 138);
+}
+
+.yellow:hover{
+    background-color: rgb(144, 146, 13);
+}
+
+.green:hover{
+    background-color: rgb(25, 155, 25);
+}
+
+.tbl{
+    margin-top: 50px;
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: auto;
+}
+
+.tbl2{
+    margin-top: 10px;
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: auto;
+}
+
+.overflow{
+    overflow: auto; 
+    width: 600px; 
+    height: 100px;
+    display: inline-block;
+}
+
+.tbl tbody tr td{
+    text-align: center;
+    width: 20%;
+}
+
+.tbl2 tbody tr td{
+    text-align: center;
+    width: 20%;
+}
+
+table .tbl2, .tbl2 tr, .tbl2 th, .tbl2 td{
+    border: 2px solid black;
+    padding: 2%;
+}
+
+table .tbl, .tbl tr, .tbl th, .tbl td{
+    border: 2px solid black;
+}
+
+.p1{padding: 10%}
+.p2{padding: 20%}
+.p3{padding: 30%}
+.p4{padding: 40%}
+.p5{padding: 50%}
+.p6{padding: 60%}
+.p7{padding: 70%}
+.p8{padding: 80%}
+.p9{padding: 90%}
+.p10{padding: 100%}
+
+.m1{margin: 10%}
+.m2{margin: 20%}
+.m3{margin: 30%}
+.m4{margin: 40%}
+.m5{margin: 50%}
+.m6{margin: 60%}
+.m7{margin: 70%}
+.m8{margin: 80%}
+.m9{margin: 90%}
+.m10{margin: 100%}
