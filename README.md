@@ -1,3 +1,3 @@
 # Personal-Projects
 
-You can see all of my personal project here!
+You can see all of my personal projects here!
